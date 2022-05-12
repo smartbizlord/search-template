@@ -1,0 +1,94 @@
+﻿/*Resetting the browser*/
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+body {
+	font-family: Arial;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	background-color: #000000;
+}
+
+/*search box section*/
+
+.heading {
+	margin: 10px 0;
+	text-align: center;
+	text-transform: uppercase;
+	color: #87ceeb;
+}
+
+.search-section {
+	background-color: #87ceeb;
+	padding: 10px;
+	border-radius: 26px;
+}
+
+#search {
+	width: 100%;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 26px;
+}
+
+.user-list-section {
+	margin-top: 20px;
+}
+
+li {
+	border: 1px solid #dddddd;
+	margin-top: -1px;
+	background-color: #f6f6f6;
+	font-size: 18px;
+	text-transform: capitalize;
+	padding: 12px;
+	border-radius: 5px;		
+}
+
+li:hover {
+	background-color: #eeeeee;
+}
+
+/*pill button for username*/
+
+.username {
+	background-color:#87ceeb;
+	color: #ffffff;
+	padding: 6px;
+	foont-size: 14px;
+	border-radius: 5px;
+}
+
+
+
+/*media query for large screens*/
+
+@media (min-width: 1000px) {
+	body {
+		width: 50%;
+	}
+	
+	li {
+		font-size: 14px;
+	}
+}
+
+
+
+/*media query for large screens*/
+
+@media (min-width: 1000px) {
+	
+}

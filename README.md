@@ -1,10 +1,6 @@
 # search-template
-A template for search function using HTML, CSS and JS
+This template for search function using HTML, CSS and JS has been updated by improving the search functionality to search for username and name and has a minimal change in the styling
+![Screenshot (3)](https://user-images.githubusercontent.com/103539335/176983762-1d732713-9677-412d-889a-dd20e8146f7c.png)
 
-
-![Screenshot 2022-05-12 063048](https://user-images.githubusercontent.com/103539335/167999310-fd271258-9049-498a-86ba-95f302781c7f.png)
-
-
-![Screenshot 2022-05-12 063302](https://user-images.githubusercontent.com/103539335/167999374-f1fde63f-6c73-44af-8a52-4070b451d015.png)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2f211920-b40b-4d46-9e90-ee07b67d8852/deploy-status)](https://app.netlify.com/sites/genuine-snickerdoodle-971d67/deploys)

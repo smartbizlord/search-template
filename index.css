@@ -67,8 +67,10 @@ li:hover {
 	background-color:#87ceeb;
 	color: #ffffff;
 	padding: 6px;
-	foont-size: 14px;
+	font-size: 14px;
 	border-radius: 5px;
+	position: absolute;
+	right: 325px;
 }
 
 

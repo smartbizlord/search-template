@@ -1,4 +1,4 @@
-﻿//var a;
+//var a;
 
 
 
@@ -34,8 +34,7 @@ function renderUsers(usersData) {
 		const li = document.createElement("li");
 		li.innerHTML = `
 			<span>${index + 1}.</span>
-			<span>${user.name}</span>
-			<span>-</span>
+			<span class="name">${user.name}</span>
 			<span class="username">${user.username}</span>
 		`;
 
@@ -58,10 +57,13 @@ function searchUsersByUsername() {
 	//loop through all the users and render the ones that matches the search
 	for(let index = 0; index < usersList.length; index++) {
 		const usernameSpanTag = usersList[index].querySelector(".username");
+		const nameSpanTag = usersList[index].querySelector(".name");
 		const usernameSpanTagValue = usernameSpanTag.innerText.toUpperCase();
+		const nameSpanTagValue = nameSpanTag.innerText.toUpperCase();
 		const isMatch = usernameSpanTagValue.indexOf(inputValue) > -1;
+		const isNameMatch = nameSpanTagValue.indexOf(inputValue) > -1;
 		
-		if(isMatch) {
+		if(isMatch || isNameMatch) {
 			usersList[index].style.display = "block";
 		}else {
 			usersList[index].style.display = "none";
@@ -72,4 +74,6 @@ function searchUsersByUsername() {
 
 //calling the fetch function
 fetchUsers();
+
+
 

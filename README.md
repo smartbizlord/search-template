@@ -1,5 +1,5 @@
 # search-template
-This template for search function using HTML, CSS and JS has been updated by improving the search functionality to search for username and name and has a minimal change in the styling
+This template for search function using HTML, CSS and JS has been updated by improving the search functionality to search for username and name and has a minimal change in the styling it was suited to use dark mode
 ![Screenshot (3)](https://user-images.githubusercontent.com/103539335/176983762-1d732713-9677-412d-889a-dd20e8146f7c.png)
 
 
